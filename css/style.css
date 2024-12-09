@@ -188,6 +188,17 @@ h2 {
     margin-bottom: 20px; /* 下の余白 */
 }
 
+h4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    color: #333; /* 文字色 */
+    background-color: #f4f4f4; /* 背景色 */
+    border-left: 5px solid #6a0dad; /* 左側のライン */
+    padding: 5px; /* 内側の余白 */
+    text-transform: uppercase; /* 大文字化 */
+    letter-spacing: 1px; /* 文字間隔 */
+    margin-bottom: 15px; /* 下部の余白 */
+}
 
 
 .image-row {
@@ -202,6 +213,12 @@ h2 {
     height: auto; /* アスペクト比を維持 */
     border: 1px solid #ddd; /* 枠線を追加（オプション） */
     border-radius: 5px; /* 角を丸くする（オプション） */
+}
+
+.video-container {
+    display: flex; /* フレックスボックスを有効化 */
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
 }
 
 
