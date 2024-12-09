@@ -215,6 +215,20 @@ h4 {
     border-radius: 5px; /* 角を丸くする（オプション） */
 }
 
+.image-rowV2 {
+    display: flex; /* 横並びにする */
+    gap: 10px; /* 画像間の間隔 */
+    justify-content: center; /* 画像を中央揃え（オプション） */
+    align-items: center; /* 画像を縦方向中央揃え（オプション） */
+}
+
+.image-rowV2 img {
+    width: auto; /* 画像の幅を統一 */
+    height: 250px; /* アスペクト比を維持 */
+    border: 1px solid #ddd; /* 枠線を追加（オプション） */
+    border-radius: 5px; /* 角を丸くする（オプション） */
+}
+
 .video-container {
     display: flex; /* フレックスボックスを有効化 */
     justify-content: center; /* 水平方向の中央揃え */
